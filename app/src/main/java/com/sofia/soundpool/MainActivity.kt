@@ -47,12 +47,10 @@ class MainActivity : AppCompatActivity() {
             if (isLoaded) playSound(soundBoom)
         }
 
-        // BUTTON COIN
         findViewById<Button>(R.id.btnRifle).setOnClickListener {
             if (isLoaded) playSound(soundRifle)
         }
 
-        // SEMUA SEKALIGUS
         findViewById<Button>(R.id.btnSimultan).setOnClickListener {
             if (isLoaded) {
                 playSound(soundShoot)
